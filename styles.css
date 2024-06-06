@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+body{
+    height: 100vh;
+    background: #212529;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding:0 50px;
+}
+
+.navbar h2{
+    color:#ffb742;
+    font-weight: 600;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar ul li{
+    list-style:none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color:#fff;
+    font-weight: 500;
+    margin-left: 20px;
+    transition: color 0.3s ease;
+}
+.navbar ul li a:hover{
+    color:#ffb742;
+}
+
+.hire-btn{
+    background:#ffb742;
+    padding: 6px 30px;
+    border:none;
+    font-size:16px;
+    cursor:pointer;
+    border-radius: 6px;
+    transition: background 0.3s ease;
+}
+
+.hire-btn:hover{
+    background:#fb8c00
+    
+}
+
+.main{
+    height:640px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main h4{
+    font-size:32px;
+    color:#fff;
+    font-weight: 600;
+}
+
+.main h4 span{
+    color:#ffb742;
+    text-decoration:underline;
+}
+
+.title{
+    font-size: 34px;
+    color:#fff;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.subtitle{
+    font-size: 16px;
+    color:#ccc;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.main-section2{
+    margin-top:50px;
+    padding:0 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap:24px;
+}
+
+.main-section2 .item{
+    background:#292b2e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:100px;
+    width:100%;
+    border-radius:10px;
+    padding: 0 30px;
+    border:1px solid transparent;;
+    cursor:pointer;
+    transition: all 0.5s ease;
+}
+
+.main-section2 .item:hover{
+    border-color:#ffb742;
+}
+
+.main-section2 .item .icon{
+    width: 42px;
+    height:46px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:50%;
+    transition:all 0.3s ease
+    }
+.main-section2 .item:hover .icon{
+    background-color: #ffb742;
+}
+
+.main-section2 .item .info{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+.main-section2 .item .info h3{
+   color:#ffb742;
+   font-size: 22px;
+  }
+
+  .main-section2 .item .info p{
+    color:#fff;
+    font-size: 13px;
+    font-weight: 600;
+   }
+
+.main-section2 .item > i{
+    color:fff;
+    font-size:30px;
+    transition: color 0.3s ease;
+}
+.main-section2 .item > i:hover{
+    color:#ffb742;
+}
+   
+  .separator{
+    margin:50px 50px 30px;
+    padding: 10px 20px;
+    background: rgba(255,255,255,0.08);
+    display: inline-block;
+    color:#ffb742;
+    border-radius:12px;
+  }
+  .about{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+    gap: 80px;
+    padding: 0 50px;
+  }
+
+  .about img{
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+  }
+
+  .about .info h3{
+    color:white;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  .about .info p{
+    color:#ccc;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+
+  .about .info button{
+    margin-top:30px;
+  }
+
+  .skills{
+    display: flex;
+    justify-content: space-between;
+    padding:0 50px;
+  }
+
+  .skills .left{
+    width:680px;
+  }
+
+  .skills .left .info h3{
+    color:#fff;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .skills .left .info p{
+    color:#fff;
+    font-size: 14px;
+  }
+
+  .skills .left button{
+    margin-top: 30px;
+  }
+.skills .right{
+    width: 420px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap;
+    gap:12px;
+}
+
+.skills .right .item{
+    background:#383e45;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+}
+.skills .right .item i{
+    color:#fff;
+    font-size: 24px;
+}
