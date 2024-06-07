@@ -245,3 +245,162 @@ body{
     color:#fff;
     font-size: 24px;
 }
+
+footer{
+  position: relative;
+  background:#1c1c1c;
+  padding:80px 50px 40px;
+  margin-top: 100px;
+}
+
+footer .start{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #ffb742;
+  padding:30px 20px;
+  border-radius: 15px;
+  width: 70%;
+  margin: -129px 28px 40px 241px;
+}
+footer .start p{
+  font-size: 13px;
+  width:35%;
+}
+footer .start button{
+  background:transparent;
+  border-color: 1px solid #000;
+  cursor:pointer;
+  padding:8px 20px;
+  border-radius: 100px;
+  transition: all 0.3s ease;
+}
+footer .start button:hover{
+  background-color: #fff;
+  border-color: #fff;
+}
+footer .col{
+  display: flex;
+  align-items:start;
+}
+
+footer .col .about-col{
+  flex:3;
+}
+footer .col .about-col h3{
+  color: #ffb742;
+  margin-bottom: 20px;
+}
+
+footer .col .about-col p{
+  color:#ccc;
+  font-size: 14px;
+}
+
+footer .col .links-col{
+  flex:3;
+}
+
+footer .col .links-col h4, footer .col .news-col h4{
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+footer .col .links-col a{
+  display: block;
+  text-decoration: none;
+ color:#7b7b7b; 
+ font-size: 14px;
+ line-height: 26px;
+ transition: color 0.3s ease;
+}
+
+footer .col .links-col a:hover{
+  color:#ffb742;
+}
+
+footer .col .news-col{
+  flex:3;
+}
+
+footer .col .news-col p{
+  color:#7b7b7b;
+  font-size: 15px;
+}
+
+footer .col .news-col form{
+  width: 100%;
+  margin-top: 20px;
+  position: relative;
+}
+
+footer .col .news-col form input{
+  width: 100%;
+  background:#212529;
+  padding: 13px;
+  border:none;
+  border-radius: 100px;
+  font-style: 13px;
+}
+
+footer .col .news-col form button{
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  width: 45px;
+  height: 45px;
+  background:#ffb742;
+  border:none;
+  border-radius:50%;
+  position: absolute;
+  top:0;
+  right:0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+footer .col .news-col form button:hover{
+  background-color: #fb8c00;
+}
+
+footer .col .news-col form button i{
+  font-size:26px;
+}
+
+@media screen and (max-width:1100px){
+  .main-section2{
+    flex-wrap:wrap;
+    gap:10px;
+  }
+  .main-section2 .item{
+   flex-basis: 40%;
+  }
+  .skills{
+    justify-content: space-between;
+    gap:20px;
+  }
+  .skills .left{
+    width:500px;
+  }
+  footer{
+    margin-top:150px;
+  }
+
+  footer .start{
+    width:90%;
+    margin: -125px 0px 52px 42px;
+  }
+  footer .col{
+    flex-wrap:wrap;
+  }
+  footer .col .about-col{
+    flex-basis: 50%;
+  }
+  footer .col .links-col{
+    flex-basis: 50%;
+  }
+  footer .col .news-col{
+    flex-basis: 100%;
+    margin-top: 20px;
+  }
+}
