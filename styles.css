@@ -473,4 +473,88 @@ footer .col .news-col form button i{
   .main p.title{
     font-size: 18px;
   }
+  .main p.subtitle{
+    font-size: 12px;
+  }
+  .main-section2 {
+    margin-top: 50px;
+    padding: 0px 92px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+.about img{
+  margin-top: 40px;
+  width: 180px;
+  height: 180px;
+}
+.about .info h3 {
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.skills{
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.skills .right{
+  justify-content: space-evenly;
+}
+.skills .left .info h3{
+  font-size: 20px;
+}
+footer {
+  margin-top: 97px;
+}
+footer .start p{
+  display: none;
+}
+footer .col .about-col{
+  margin-bottom:40px;
+}
+footer .start {
+  width: 90%;
+  margin: -129px 28px 40px 29px;
+}
+}
+
+@media  screen and (max-width:430px) {
+  .main-section2 .item .icon {
+    width: 62px;
+    height: 44px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+.main-section2 .item .info h3 {
+  color: #ffb742;
+  font-size: 16px;
+  margin-left: 10px;
+}
+.main-section2 .item .info p {
+  margin: 0px 0px 0px 27px;
+}
+footer .start {
+  width: 90%;
+  margin: -129px 28px 40px 20px;
+}
+footer .start h3{
+  font-size: 14px;
+}
+footer .start button {
+  background: transparent;
+  border-color: 1px solid #000;
+  cursor: pointer;
+  padding: 5px 12px;
+  border-radius: 100px;
+  transition: all 0.3s ease;
+}
+footer .col .links-col {
+  flex: 3;
+  margin: 0px 0px 0px 14px;
+}
 }
