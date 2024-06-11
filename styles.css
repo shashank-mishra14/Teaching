@@ -449,3 +449,28 @@ footer .col .news-col form button i{
     justify-content: center;
 }
 }
+
+@media screen and (max-width:650px){
+  .navbar{
+    justify-content: center;
+  }
+  .navbar h2{
+    display: none;
+  }
+  .navbar ul li a{
+    font-size: 14px;
+  }
+  .main{
+    margin-top:50px;
+    height:280px;
+    justify-content: start;
+  }
+
+  .main h4{
+    font-size: 18px;
+  }
+
+  .main p.title{
+    font-size: 18px;
+  }
+}
