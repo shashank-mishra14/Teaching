@@ -367,40 +367,85 @@ footer .col .news-col form button i{
   font-size:26px;
 }
 
-@media screen and (max-width:1100px){
-  .main-section2{
-    flex-wrap:wrap;
-    gap:10px;
+@media screen and (max-width: 1100px) {
+  .guarantee{
+      flex-wrap: wrap;
+      gap: 10px;
   }
-  .main-section2 .item{
-   flex-basis: 40%;
+
+  .guarantee .item{
+      flex-basis: 49%;
   }
+
   .skills{
-    justify-content: space-between;
-    gap:20px;
+      justify-content: space-between;
+      gap: 20px;
   }
+
   .skills .left{
-    width:500px;
+      width: 500px;
   }
+
+  .skills .left .info h3{
+      font-size: 22px;
+  }
+
+  .skills .left .info p{
+      font-size: 12px;
+  }
+
   footer{
-    margin-top:150px;
+      margin-top: 150px;
   }
 
   footer .start{
-    width:90%;
-    margin: -125px 0px 52px 42px;
+      width: 90%;
+      margin: -129px 28px 40px 49px;
   }
-  footer .col{
-    flex-wrap:wrap;
+
+  footer .cols{
+      flex-wrap: wrap;
   }
-  footer .col .about-col{
-    flex-basis: 50%;
+
+  footer .cols .about-col{
+      flex-basis: 50%;
   }
-  footer .col .links-col{
-    flex-basis: 50%;
+
+  footer .cols .links-col{
+      flex-basis: 50%;
   }
-  footer .col .news-col{
+
+  footer .cols .news-col{
+      flex-basis: 50%;
+  }
+
+}
+
+@media  screen and (max-width: 768px) {
+  .navbar button{
+      display: none;
+  }
+  .main h4{
+    font-size: 21px;
+  }
+  .main p.title{
+    font-size:31px;
+  }
+  .subtitle{
+    font-size: 14px;
+  }
+  .main-section2 {
+    margin-top: 50px;
+    padding: 0 42px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+  .main-section2 .item{
     flex-basis: 100%;
-    margin-top: 20px;
   }
+  .about{
+    flex-wrap:wrap;
+    justify-content: center;
+}
 }
